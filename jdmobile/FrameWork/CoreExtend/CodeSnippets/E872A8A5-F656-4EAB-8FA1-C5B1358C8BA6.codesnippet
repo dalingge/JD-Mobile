@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>VIEWDIDDISAPPEAR</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> -(void)viewDidDisappear:(BOOL)animated{
+ 
+     [super viewDidDisappear:animated];
+     
+     &lt;#code#&gt;
+ }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E872A8A5-F656-4EAB-8FA1-C5B1358C8BA6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>VIEWDIDDISAPPEAR</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>VIEWDIDDISAPPEAR</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

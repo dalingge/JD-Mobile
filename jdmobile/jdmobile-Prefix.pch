@@ -1,0 +1,67 @@
+//
+//  jdmobile-Prefix.pch
+//  jdmobile
+//
+//  Created by SYETC02 on 15/6/12.
+//  Copyright (c) 2015年 SYETC02. All rights reserved.
+//
+#import <Availability.h>
+
+#ifndef jdmobile_jdmobile_Prefix_pch
+#define jdmobile_jdmobile_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "LolitaFunctions.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIView+Extension.h"
+#import "UIImage+Extension.h"
+#import "NSString+Extension.h"
+#import "UIButton+Extension.h"
+#import "MBProgressHUD+MJ.h"
+#import "MasonyUtil.h"
+#import "Masonry.h"
+#import "UserDefaultsUtils.h"
+
+#define USER_TABLE_SQL @"CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `user_id` VARCHAR(20) UNIQUE NOT NULL,`user_phone` VARCHAR(20) NOT NULL,`user_pwd` NOT NULL,`time` VARCHAR(20) NOT NULL,'user_name' VARCHAR(20) ,commodity,shop,record)"
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#define _LolitaFunctions [LolitaFunctions sharedObject]
+//颜色
+#define JDColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define rgba(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+//导航栏标题字体大小
+#define JDNavigationFont [UIFont boldSystemFontOfSize:16]
+//公用颜色
+#define JDCommonColor [UIColor colorWithRed:0.478 green:0.478 blue:0.478 alpha:1]
+
+//是否为iOS7
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+//是否为iOS8及以上系统
+#define iOS8 ([[UIDevice currentDevice].systemVersion doubleValue] >= 8.0)
+
+
+//日至输出
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
+
+
+
+#endif
