@@ -5,7 +5,17 @@
 ## 编译环境
 Xcode 6＋
 
+##部分App界面
 ![image](https://github.com/dalingge/JD-Mobile/blob/master/image/首页.png)
+>首页只完成了实现UITableView布局的方法
+![image](https://github.com/dalingge/JD-Mobile/blob/master/image/分类.png)
+![image](https://github.com/dalingge/JD-Mobile/blob/master/image/发现.png)
+![image](https://github.com/dalingge/JD-Mobile/blob/master/image/购物车.png)
+![image](https://github.com/dalingge/JD-Mobile/blob/master/image/我的.png)
+![image](https://github.com/dalingge/JD-Mobile/blob/master/image/商品.png)
+![image](https://github.com/dalingge/JD-Mobile/blob/master/image/商品详情.png)
+![image](https://github.com/dalingge/JD-Mobile/blob/master/image/填写订单.png)
+![image](https://github.com/dalingge/JD-Mobile/blob/master/image/登录.png)
 
 ## 项目用到的开源类库、组件
 1. AFNetworking                         网络请求
