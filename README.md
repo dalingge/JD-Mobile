@@ -1,11 +1,11 @@
-#高仿京东
+# 高仿京东
 
 ------
 
 ## 编译环境
 Xcode 6＋
 
-##部分App界面
+## 部分App界面
 ![image](https://github.com/dalingge/JD-Mobile/blob/master/image/首页.png)
 >首页只完成了实现UITableView布局的方法
 ![image](https://github.com/dalingge/JD-Mobile/blob/master/image/分类.png)
